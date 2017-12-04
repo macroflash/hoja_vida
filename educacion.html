@@ -23,16 +23,72 @@
 			<li><a href="experiencia.html">Experiencia</a></li>
 		</ul>
 	</nav>
-	<h2>Informacion pesonal</h2>
-	<img src="img/image-code-01.jpg" width="30%"  height="20%" alt="mi foto">
-	<p>
-	<ul>
-		<li>ingles</li>
-		<li>frances</li>
-		<li>Español</li>
-		<li>Portuguez</li>
-	</ul>	
-	</p>
+	<h2>Educacion</h2>
+	<table border="1px">
+		<thead>
+			<tr>
+				<th>Año</th>
+				<th>Institucion</th>
+				<th>Lugar</th>
+				<th>¿Culmino</th>
+			</tr>
+		</thead>
+		
+		<tr>
+			<td>2008</td>
+			<td>Aula Virtual</td>
+			<td>Monterrey</td>
+			<td>No</td>
+		</tr>
+		<tr>
+			<td>2005</td>
+			<td>Tecpremier</td>
+			<td>San Luis</td>
+			<td>Si</td>
+		</tr>
+		<tr>
+			<td>2014</td>
+			<td>Video2brain</td>
+			<td>Monterrey</td>
+			<td>si</td>
+		</tr>
+	
+	</table>
+	
+	<form action="">
+		<fieldset>
+			<legend>Agregar estudios</legend>
+		<p>
+		<label for="estudent">Año:</label>
+			<select name="estudent">
+			<option value="1">2014</option>
+			<option value="1">2015</option>
+			<option value="1">2016</option>
+			<option value="1">2017</option>
+		</select>
+		</p>
+		<p>
+			<label for="instit">Institucion</label>
+			<input type="text" name="instit" placeholder="En que plantel" required>
+		</p>
+		<p>
+			<label for="textlarg">Lugar</label>
+			<textarea name="textlarg" id="" cols="30" rows="3" placeholder="En que ciudad"></textarea>
+		</p>
+		<p>
+			<label for="culm">¿Culmino?: </label>
+			
+			<input type="radio" name="culm"> Si
+			
+			<input type="radio" name="culm"> No
+		</p>
+			<p>
+			<input type="submit" value="Enviar">
+			</p>	
+			
+		</fieldset>
+	
+	</form>
 	<footer>
 		<a href="#">correo electrino</a> |
 		<a href="#">facebook</a> |
